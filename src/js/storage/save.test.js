@@ -12,7 +12,7 @@ global.localStorage = {
   }),
 };
 
-describe("saveToLocal", () => {
+describe("save", () => {
   it("save a value to local storage", () => {
     const theKey = "A key";
     const theValue = 123;
