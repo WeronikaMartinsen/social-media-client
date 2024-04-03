@@ -66,7 +66,7 @@ To install and run this project locally, follow these steps:
 
 ## Jest Test
 
-1. Run the following command to start Cypress:
+1. Run the following command to start Jest:
 
    ```bash
    npm run test-unit
