@@ -6,16 +6,21 @@ In this project, we aim to enhance the quality of an existing application by imp
 
 Using the skills and knowledge acquired in this course, our mission is to establish helpful workflows that streamline the development process and elevate the overall quality of the application.
 
+### Workflow Badges
+
+![Build](https://github.com/WeronikaMartinsen/social-media-client/workflows/Build/badge.svg)
+![Tests](https://github.com/WeronikaMartinsen/social-media-client/workflows/Tests/badge.svg)
+
 ## Checklist
 
 - [x] **Completed**: I have chosen an existing application package that meets the requirements
-- [x] **Completed**: I have forked this repository to my own GitHub username.
-- [x] **Completed**: I have created a new branch called `workflow`.
-- [x] **Completed**: I have performed the required changes.
-- [x] **Completed**: I have opened a Pull Request into the fork's default branch.
-- [x] **Completed**: I have requested review from my peers.
-- [x] **Completed**: I have reviewed work from my peers.
-- [x] **Completed**: I have delivered an open PR link on Moodle.
+- [x] I have forked this repository to my own GitHub username.
+- [x] I have created a new branch called `workflow`.
+- [x] I have performed the required changes.
+- [x] I have opened a Pull Request into the fork's default branch.
+- [x] I have requested review from my peers.
+- [x] I have reviewed work from my peers.
+- [x] I have delivered an open PR link on Moodle.
 
 ### Unit Testing
 
