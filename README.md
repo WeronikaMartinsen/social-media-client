@@ -8,8 +8,8 @@ Using the skills and knowledge acquired in this course, our mission is to establ
 
 ### Workflow Badges
 
-![Build](https://github.com/WeronikaMartinsen/social-media-client/workflows/Build/badge.svg)
-![Tests](https://github.com/WeronikaMartinsen/social-media-client/workflows/Tests/badge.svg)
+![Build](https://github.com/WeronikaMartinsen/social-media-client/actions/workflow/pages.yml/badge.svg)
+![Tests](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 ## Checklist
 
