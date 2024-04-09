@@ -6,14 +6,13 @@ In this project, we aim to enhance the quality of an existing application by imp
 
 Using the skills and knowledge acquired in this course, our mission is to establish helpful workflows that streamline the development process and elevate the overall quality of the application.
 
-### Workflow Badges
+### Workflow Status Badges
 
-![Build](https://github.com/WeronikaMartinsen/social-media-client/actions/workflow/pages.yml/badge.svg)
-![Tests](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![Deploy static content to Pages](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages.yml)
 
 ## Checklist
 
-- [x] **Completed**: I have chosen an existing application package that meets the requirements
+- [x] I have chosen an existing application package that meets the requirements
 - [x] I have forked this repository to my own GitHub username.
 - [x] I have created a new branch called `workflow`.
 - [x] I have performed the required changes.
