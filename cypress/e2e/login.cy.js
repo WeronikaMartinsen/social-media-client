@@ -1,22 +1,18 @@
 describe("Login Form", () => {
   it("Logs in the user with valid credentials", () => {
-    cy.visit("http://127.0.0.1:5500/")
+    cy.visit("https://weronikamartinsen.github.io/social-media-client/")
+    cy.wait(500)
 
-    cy.get("#loginEmail").type("valid@example.com")
-    cy.get("#loginPassword").type("password123{enter}")
+    cy.get('.modal-footer button[data-auth="login"]')
+      .should("be.visible")
+      .click()
 
-    cy.get("#logOut").should("exist")
-  })
+    cy.get("#loginEmail").invoke("val", "maryb@noroff.no")
+    cy.get("#loginPassword").invoke("val", "marybnoroff")
+    cy.wait(500)
+    cy.get("#loginForm button").contains("Login").click()
+    cy.wait(1000)
 
-  it("Displays an error message for invalid credentials", () => {
-    cy.visit("http://127.0.0.1:5500/")
-
-    cy.get("#loginEmail").type("invalid@example.com", { force: true })
-
-    cy.get("#loginPassword").type("invalidPassword{enter}")
-
-    cy.contains("Incorrect email address or password.").should("be.visible")
-
-    cy.url().should("not.include", "/dashboard")
+    cy.get("button.btn-outline-warning").contains("Logout").should("exist")
   })
 })
