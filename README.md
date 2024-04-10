@@ -10,6 +10,10 @@ Using the skills and knowledge acquired in this course, our mission is to establ
 
 [![Deploy static content to Pages](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages.yml/badge.svg)](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/pages.yml)
 
+[![Automated E2E Testing](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/test-e2e.yml/badge.svg)](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/test-e2e.yml)
+
+[![Automated Unit Testing](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/test-unit.yml/badge.svg)](https://github.com/WeronikaMartinsen/social-media-client/actions/workflows/test-unit.yml)
+
 ## Checklist
 
 - [x] I have chosen an existing application package that meets the requirements
